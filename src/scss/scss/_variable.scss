@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+$px-font: 'Space Grotesk', sans-serif !default;
+
+// 🌸 Light Sakura Theme
+
+$px-theme: #ec407a;              // Strong cherry accent
+$px-theme-rgb: 236, 64, 122;
+
+$px-white: #ffffff;
+$px-black: #4a2c3a;              // Plum (main heading color)
+$px-text: #6b4c5c;               // Soft muted plum text
+$px-heading: #4a2c3a;
+
+// Breakpoints
+$px-media-xsm: 567px !default;
+$px-media-sm: 767px !default;
+$px-media-md: 991px !default;
+$px-media-lg: 1200px !default;
