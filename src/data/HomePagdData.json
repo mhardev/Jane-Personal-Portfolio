@@ -1,9 +1,9 @@
 {
   "hero": {
     "imgUrl": "/images/home-banner.png",
-    "name": "Jenna Ortega",
-    "heading": "Hay! I’m Jenna",
-    "typingText": ["I'm a Designer", 1500, "I'm a Developer", 1500],
+    "name": "Jane Ignacio",
+    "heading": "Hay! I’m Jane",
+    "typingText": ["I'm a Content Creator", 1500, "I'm a Photographer", 1500],
     "description": "Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment.",
     "btnText": "Get in touch",
     "btnUrl": "contactus"
@@ -85,8 +85,8 @@
     "allProjects": [
       {
         "thumbUrl": "/images/popup-project-1.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
+        "title": "Videos",
+        "subTitle": "Videos",
         "details": {
           "title": "Website Design for Marketing Agency Startup",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -99,8 +99,8 @@
       },
       {
         "thumbUrl": "/images/popup-project-2.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
+        "title": "Pictures",
+        "subTitle": "Pictures",
         "details": {
           "title": "Website Design for Marketing Agency Startup",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -113,8 +113,8 @@
       },
       {
         "thumbUrl": "/images/popup-project-3.jpg",
-        "title": "Dashboard Design",
-        "subTitle": "Web Design, App Design",
+        "title": "Writing",
+        "subTitle": "Writing",
         "details": {
           "title": "Website Design for Marketing Agency Startup",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
