@@ -8,46 +8,24 @@
   background-color: var(--px-theme);
   color: var(--px-black);
   text-decoration: none;
-  transition: ease all 0.35s;
-  font-weight: 500;
-  outline: none;
-  box-shadow: none;
-  text-transform: uppercase;
-  cursor: pointer;
-  i {
-    margin-left: 10px;
+  transition: 0.35s ease;
+
+  span,
+  i,
+  svg {
+    color: inherit;        // inherit parent color
   }
+
   &:hover {
     background-color: var(--px-black);
-    color: var(--px-black);
-    border: 2px solid var(--px-white);
-  }
-  &.dark {
-    background: var(--px-black);
-    border: 1px solid var(--px-black);
-    color: var(--px-black);
-    &:hover {
-      background: var(--px-white);
-      color: var(--px-black);
-    }
-  }
-  &.light {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    color: var(--px-black);
-    &:hover {
-      background: var(--px-white);
-      color: var(--px-black);
-    }
-  }
-  &.white {
-    background: var(--px-white);
-    border: 1px solid var(--px-white);
-    color: var(--px-black);
-    &:hover {
-      background: rgba(255, 255, 255, 0.1);
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      color: var(--px-black);
+    color: #fff !important;   // force white
+    border: 2px solid #fff;
+
+    span,
+    i,
+    svg {
+      color: #fff !important;
+      fill: currentColor;
     }
   }
 }

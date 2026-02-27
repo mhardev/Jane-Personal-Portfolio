@@ -2,5 +2,8 @@
     "workbench.colorCustomizations": {
         "statusBar.noFolderBackground": "#551913",
         "statusBar.noFolderForeground": "#FEFCFC"
-    }
+    },
+    "cSpell.words": [
+        "Laralink"
+    ]
 }

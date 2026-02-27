@@ -363,14 +363,25 @@ a {
         align-items: center;
         justify-content: center;
         background: var(--px-theme);
-        color: var(--px-black);
+        color: var(--px-black); // default arrow color
         font-size: 20px;
         border-radius: 50%;
         border: 2px solid var(--px-black);
         cursor: pointer;
         transition: all 0.4s ease;
+
+        svg {
+          transition: color 0.4s ease, fill 0.4s ease; // smooth transition
+          fill: currentColor; // ensure it uses parent's color
+        }
+
         &:hover {
           background: var(--px-black);
+          color: #fff; // <-- this makes the arrow white
+
+          svg {
+            fill: currentColor; // ensures it follows color
+          }
         }
       }
     }
